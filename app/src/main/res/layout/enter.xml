@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:text="@string/back"
+        android:textSize="15sp"
+        android:onClick="onBackButtonClick"
+        android:id="@+id/backButton"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:id="@+id/editText"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dip"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:text="@string/send"
+        android:textSize="15sp"
+        android:onClick="onEnterTextButtonClick"
+        android:id="@+id/enterText"
+        />
+
+</LinearLayout>
